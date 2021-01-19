@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:clickable="true"
+    tools:context=".parentFour.parentFragment.MyParentFragment">
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/idUpdateFragment1"
+        android:text="Update Fragment 1"
+        />
+
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/idUpdatedFromFragment1"
+        />
+
+
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="2"
+        >
+
+        <FrameLayout
+            android:background="#E4DF91"
+            android:padding="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/idContainer1"
+            android:layout_weight="1"
+            android:layout_marginBottom="12dp"
+            />
+
+        <FrameLayout
+            android:background="#ADEAB7"
+            android:padding="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/idContainer2"
+            android:layout_weight="1"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

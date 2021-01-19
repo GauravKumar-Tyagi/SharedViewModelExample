@@ -1,0 +1,2 @@
+rootProject.name='SharedViewModelExample'
+include ':app'
